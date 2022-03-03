@@ -1,0 +1,98 @@
+body{
+	font-family: sans-serif;
+}
+#send-btn{
+  padding: 10px 60px !important;
+}
+.auth-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.logo-erea{
+	margin-bottom: 20px;
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+}
+
+.logo-erea .logo-title{
+	font-size: 1.1rem;
+	margin-left: 10px;
+}
+
+.centralize-form{
+	width: 750px;
+	min-height: 400px;
+	background: #fff;
+	padding: 16px;
+	border-radius: 10px;
+	box-shadow: 0 15px 25px  rgba(10, 80, 10, 0.1);
+	position: relative;
+  	display: -webkit-box;
+  	display: -ms-flexbox;
+  	display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-animation: animroot 2s 0.1s 1;
+    animation: animroot 2s 0.1s 1;
+}
+
+.centralize-form .side-left,
+.centralize-form .side-right{
+	width: 50%;
+	padding: 20px;
+	-webkit-animation: animroot 1.5s 0.4s 1;
+    animation: animroot 1.5s 0.4s 1;
+}
+.centralize-form .side-left{
+	-webkit-animation: animroot 1.5s 0.4s 1; 
+    animation: animroot 1.5s 0.4s 1;
+}
+.centralize-form .side-right{
+	border-left: 2px #eee solid;
+	-webkit-animation: animroot 1.5s 0.5s 1; 
+    animation: animroot 1.5s 0.5s 1;
+}
+
+.head-title{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px #eee solid;
+	padding-bottom: 10px;
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width:  771px) {
+	.centralize-form{
+		width: 100%;
+		min-height: 100vh;
+		border-radius: 0;
+		
+		-webkit-flex-direction: column;
+		flex-direction: column;
+		-webkit-justify-content: flex-start;
+    	justify-content: flex-start;
+	}
+	.centralize-form .side-left,
+	.centralize-form .side-right{
+		width: 100%;
+		padding: 10px;
+		border-left: 0;
+	}
+}

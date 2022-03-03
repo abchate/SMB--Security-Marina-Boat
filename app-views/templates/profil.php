@@ -1,0 +1,1 @@
+<img src="<?php echo IMG::pack("images/samples/1.png")?>" alt="">
