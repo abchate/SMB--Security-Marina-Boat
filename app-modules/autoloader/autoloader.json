@@ -1,0 +1,11 @@
+{
+	"autoloader": [
+		"views",
+		"routers",
+		"images",
+		"database",
+		"datetime",
+		"forms"
+
+	]
+}

@@ -1,0 +1,49 @@
+.dataTable-top{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.dataTable-top label{
+	display: none;
+}
+.dataTable-selector.form-select{
+	width: 200px !important;
+}
+/*Design modal for user*/
+
+#modal-show-user{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 70, 0.4);
+	z-index: 888;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+	opacity: 0;
+}
+#modal-show-user.active{
+	visibility: visible;
+	opacity: 1;
+}
+
+.card-modal{
+	width: 90%;
+	height: 80vh;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	position: relative;
+}
+
+#btnclose{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #fff;
+}
